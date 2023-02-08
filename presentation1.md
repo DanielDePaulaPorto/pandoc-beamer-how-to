@@ -36,8 +36,8 @@ toc: true
 ## Text formatting
 
 Normal text.
-*Italic text* and **bold text**.
-~~Strike out~~ is supported.
+*Italic text* and **bold text Negrito**.
+~~Strike out Taxado~~ is supported.
 
 ## Notes
 
