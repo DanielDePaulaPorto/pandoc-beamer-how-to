@@ -39,6 +39,16 @@ Normal text.
 *Italic text* and **bold text**.
 ~~Strike out~~ is supported.
 
+---
+
+## Fórmulas
+
+
+- Para inserir uma fórmula é só inserí-la dentro de dois \$\$ consecutivos. Ex: \$\$ K = \\frac{1}{2} mv^2 \$\$
+- A energia cinética é dada por $$ K = \frac{1}{2} mv^2 $$.
+
+
+
 ## Notes
 
 > This is a note.

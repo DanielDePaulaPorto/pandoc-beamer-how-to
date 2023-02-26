@@ -2,7 +2,7 @@
 
 DATE_COVER=$(date "+%d %B %Y")
 
-SOURCE_FORMAT="markdown_strict\
+SOURCE_FORMAT="markdown\
 +pipe_tables\
 +backtick_code_blocks\
 +auto_identifiers\

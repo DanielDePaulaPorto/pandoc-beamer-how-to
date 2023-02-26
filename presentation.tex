@@ -27,6 +27,7 @@
 \raggedbottom
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
+\usepackage{soul}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -134,7 +135,7 @@
 
 \title{My wonderful presentation}
 \author{Alexey Gumirov}
-\date{08 Fevereiro 2023}
+\date{17 Fevereiro 2023}
 \institute{My home office}
 \titlegraphic{\includegraphics{img/aleph0.png}}
 \logo{\includegraphics{img/aleph0-small.png}}
@@ -182,8 +183,27 @@
 
 \begin{frame}{Text formatting}
 \protect\hypertarget{text-formatting}{}
-Normal text. \emph{Italic text} and \textbf{bold text Negrito}.
-\st{Strike out Taxado} is supported.
+Normal text. \emph{Italic text} and \textbf{bold text}. \st{Strike out}
+is supported.
+\end{frame}
+
+\begin{frame}{Fórmulas}
+\protect\hypertarget{fuxf3rmulas}{}
+\begin{itemize}
+\tightlist
+\item
+  A energia cinética é dada por \$\$ K = \textbackslash frac\{1\}\{2\}
+  mv\^{}2 \$\$.
+\item
+  A energia cinética é dada por \$ K = \textbackslash frac\{1\}\{2\}
+  mv\^{}2 \$.
+\item
+  A energia cinética é dada por \$\$K = \textbackslash frac\{1\}\{2\}
+  mv\^{}2\$\$.
+\item
+  A energia cinética é dada por \$K = \textbackslash frac\{1\}\{2\}
+  mv\^{}2\$.
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Notes}
